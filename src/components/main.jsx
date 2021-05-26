@@ -19,10 +19,10 @@ return (<section id="hero" className="s-hero target-section">
                 </h3>
 
                 <div className="s-hero__content-social">
-                <a href="https://www.linkedin.com/in/kajal-choubey-944b471a5/"><i className="fab fa-linkedin" aria-hidden="true"></i></a>
-                    <a href="https://codeforces.com/profile/kajal_1483"><i className="fas fa-code" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/kajal-choubey-944b471a5/"><i className="fab fa-linkedin" aria-hidden="false"></i></a>
+                    <a href="https://codeforces.com/profile/kajal_1483"><i className="fas fa-code" aria-hidden="false"></i></a>
 
-                    <a href="https://github.com/Kajal1483"><i className="fab fa-github"aria-hidden="true"></i></a>
+                    <a href="https://github.com/Kajal1483"><i className="fab fa-github"aria-hidden="false"></i></a>
 
 
                 </div>

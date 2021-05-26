@@ -1,6 +1,6 @@
 import React from "react";
 import ResumeB from "./resumeBlock";
-import data from "./Data";
+
 function ParentR(props){
   return (<div class="row s-resume__section">
       <div class="column large-3 tab-12">
