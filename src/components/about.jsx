@@ -31,7 +31,7 @@ return (<section id="about" className="s-about target-section">
              <hr className="hr-k"></hr>
                 </div>
                 <div className="column w-1000-stack">
-                    <a href="https://drive.google.com/file/d/1ouwXvTEbszzJ6TPrQCJ5_4-KbjQJRDZH/view?usp=sharing" className="btn btn--download">
+                    <a href="https://drive.google.com/file/d/1lCa3meJ04AuHJtG8AqKxEP4TV2R8yu56/view?usp=sharing" className="btn btn--download">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" ><path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path><path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"></path></svg>
                         Resume
                     </a>
