@@ -25,7 +25,7 @@ function Resume(){
                   </div>
                   <p className="education1">
 
-                    I'm a second year computer science undergraduate at NIT, Srinagar.
+                    I'm a second year computer science student at NIT, Srinagar.
                   </p>
 
               </div>

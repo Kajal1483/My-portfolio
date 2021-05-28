@@ -13,7 +13,7 @@ return (<section id="hero" className="s-hero target-section">
                 <h1>I'm Kajal choubey.</h1>
 
                 <h3>
-            A <span>student</span>, budding <span>software developer </span> and <span>competetive programmer</span> enjoying with aderaniline rush and passion to learn more.
+            A <span>student</span>, budding <span>software developer </span> and <span>competitive programmer</span> enjoying with aderaniline rush and passion to learn more.
                Let's <a className="smoothscroll" href="#about">start scrolling</a>
                 and learn more <a className="smoothscroll" href="#about">about me</a>.
                 </h3>
