@@ -6,7 +6,7 @@ return  <header className="s-header">
               <ul>
                   <li className="current"><a className="smoothscroll" href="#hero">Home</a></li>
                   <li><a className="smoothscroll" href="#about">About</a></li>
-                  <li><a className="smoothscroll" href="#resume">Resume</a></li>
+                  <li><a className="smoothscroll" href="#resume">Projects</a></li>
                   <li><a className="smoothscroll" href="#education">Education</a></li>
                   <li><a className="smoothscroll" href="#Skills">Skills</a></li>
               </ul>

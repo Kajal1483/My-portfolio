@@ -139,24 +139,6 @@
     --vspace-4_5  : calc(4.5 * var(--space));
     --vspace-5    : calc(5 * var(--space));
 
-    /* type scale
-     * ratio 1:2 | base: 18px
-     * -------------------------------------------------------
-     *
-     * --text-display-3 = (77.40px)
-     * --text-display-2 = (64.50px)
-     * --text-display-1 = (53.75px)
-     * --text-xxxl      = (44.79px)
-     * --text-xxl       = (37.32px)
-     * --text-xl        = (31.10px)
-     * --text-lg        = (25.92px)
-     * --text-md        = (21.60px)
-     * --text-size      = (18.00px) BASE
-     * --text-sm        = (15.00px)
-     * --text-xs        = (12.50px)
-     *
-     * -------------------------------------------------------
-     */
     --text-scale-ratio: 1.2;
     --text-size       : var(--base-font-size);
     --text-xs         : calc((var(--text-size) / var(--text-scale-ratio)) / var(--text-scale-ratio));
@@ -208,19 +190,6 @@
 }
 
 
-/* ==========================================================================
- * # normalize
- * normalize.css v8.0.1 | MIT License |
- * github.com/necolas/normalize.css
- *
- * -------------------------------------------------------------------------- */
-
-/* -------------------------------------------------------------------
- * ## document
- * ------------------------------------------------------------------- */
-
-/* 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.*/
 
 html {
     line-height: 1.15;
@@ -275,11 +244,6 @@ pre {
     /* 2 */
 }
 
-/* -------------------------------------------------------------------
- * ## text-level semantics
- * ------------------------------------------------------------------- */
-
-/* Remove the gray background on active links in IE 10. */
 
 a {
     background-color: transparent;
@@ -553,10 +517,10 @@ svg, img, video embed, iframe, object {
 /* -------------------------------------------------------------------
  * ## typography resets
  * ------------------------------------------------------------------- */
-div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+/*div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
     margin: 0;
     padding: 0;
-}
+}*/
 
 p {
     font-size: inherit;
@@ -617,20 +581,6 @@ input[type="password"], textarea {
     -moz-appearance: none;
     appearance: none;
 }
-
-
-/* ===================================================================
- * # Grid v3.0.0
- *
- *   -----------------------------------------------------------------
- * - Grid breakpoints are based on MAXIMUM WIDTH media queries,
- *   meaning they apply to that one breakpoint and ALL THOSE BELOW IT.
- * - Grid columns without a specified width will automatically layout
- *   as equal width columns.
- * ------------------------------------------------------------------- */
-
-/* rows
- * ------------------------------------- */
 .row {
     width: 92%;
     max-width: var(--width-grid-max);
@@ -1529,26 +1479,6 @@ a:hover, a:active {
     outline: 0;
 }
 
-
-/* ===================================================================
- * # typography & general theme styles
- *
- * ------------------------------------------------------------------- */
-
-/* type scale - ratio 1:2 | base: 18px
- * -------------------------------------------------------------------
- * --text-display-3 = (77.40px)
- * --text-display-2 = (64.50px)
- * --text-display-1 = (53.75px)
- * --text-xxxl      = (44.79px)
- * --text-xxl       = (37.32px)
- * --text-xl        = (31.10px)
- * --text-lg        = (25.92px)
- * --text-md        = (21.60px)
- * --text-size      = (18.00px) BASE
- * --text-sm        = (15.00px)
- * --text-xs        = (12.50px)
- * -------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: var(--font-1);
@@ -1669,7 +1599,7 @@ blockquote {
         padding: var(--vspace-0_75) var(--vspace-0_75);
     }
 }
-
+/*
 blockquote p {
     font-family: var(--font-2);
     font-size: var(--text-lg);
@@ -1787,7 +1717,7 @@ hr.fancy::before {
     content: "*****";
     letter-spacing: .3em;
 }
-
+*/
 /* -------------------------------------------------------------------
  * ## Lists
  * ------------------------------------------------------------------- */
@@ -1853,7 +1783,7 @@ dd {
     height: 0;
     overflow: hidden;
 }
-
+/*
 .video-container iframe,
 .video-container object,
 .video-container embed,
@@ -1867,14 +1797,14 @@ dd {
 
 /* -------------------------------------------------------------------
  * ## floated image
- * ------------------------------------------------------------------- */
+ * -------------------------------------------------------------------
 img.h-pull-right {
     margin: var(--vspace-0_5) 0 var(--vspace-0_5) 2.8rem;
 }
 
 img.h-pull-left {
     margin: var(--vspace-0_5) 2.8rem var(--vspace-0_5) 0;
-}
+}*/
 
 /* -------------------------------------------------------------------
  * ## tables
@@ -2417,18 +2347,7 @@ input[type="button"].btn--primary:focus {
     left: 50%;
 }
 
-/**
- * Stats Tab
- * ---------
- * markup:
- *
- * <ul class="stats-tabs">
- *		<li><a href="#">[value]<em>[name]</em></a></li>
- *	</ul>
- *
- * Extend this object into your markup.
- *
- * --------------------------------------------------------------------- */
+
 .stats-tabs {
     padding: 0;
     margin: var(--vspace-1) 0;
@@ -2509,7 +2428,7 @@ input[type="button"].btn--primary:focus {
     background: var(--color-gray-3);
     position: relative;
     height: 50%;
-    border-radius: 3px;
+    border-radius: 10px;
     overflow: hidden;
     position: relative;
 }
@@ -2603,7 +2522,7 @@ input[type="button"].btn--primary:focus {
 
 /* -------------------------------------------------------------------
  * ## alert box
- * ------------------------------------------------------------------- */
+ * -------------------------------------------------------------------
 .alert-box {
     padding: var(--vspace-0_75) 4rem var(--vspace-0_75) 3.2rem;
     margin-bottom: var(--vspace-1);
@@ -2697,7 +2616,7 @@ input[type="button"].btn--primary:focus {
 
 /* -------------------------------------------------------------------
  * ## pagination
- * ------------------------------------------------------------------- */
+ * -------------------------------------------------------------------
 .pgn {
     --pgn-num-height: calc(var(--vspace-1) + .4rem);
     margin: var(--vspace-1) auto var(--vspace-1);
@@ -2932,7 +2851,7 @@ input[type="button"].btn--primary:focus {
 
 /* -------------------------------------------------------------------
  * ## MailtoUI style overrides
- * ------------------------------------------------------------------- */
+ * -------------------------------------------------------------------
 .mailtoui-modal {
     --mailtoui-modal-head-bgcolor: var(--color-gray-18);
     --mailtoui-modal-head-title-color: white;

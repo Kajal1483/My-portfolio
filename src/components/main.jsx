@@ -14,7 +14,7 @@ return (<section id="hero" className="s-hero target-section">
 
                 <h3>
             A <span>student</span>, budding <span>software developer </span> and <span>competitive programmer</span> enjoying with aderaniline rush and passion to learn more.
-               Let's <a className="smoothscroll" href="#about">start scrolling</a>
+               Let's <a className="smoothscroll" href="#about">start scrolling </a>
                 and learn more <a className="smoothscroll" href="#about">about me</a>.
                 </h3>
 
