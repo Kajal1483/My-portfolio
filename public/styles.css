@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap");
 :root {
     --font-1: "Inter", sans-serif;
@@ -1599,7 +1598,7 @@ blockquote {
         padding: var(--vspace-0_75) var(--vspace-0_75);
     }
 }
-/*
+
 blockquote p {
     font-family: var(--font-2);
     font-size: var(--text-lg);
@@ -1783,7 +1782,7 @@ dd {
     height: 0;
     overflow: hidden;
 }
-/*
+
 .video-container iframe,
 .video-container object,
 .video-container embed,
@@ -2522,7 +2521,7 @@ input[type="button"].btn--primary:focus {
 
 /* -------------------------------------------------------------------
  * ## alert box
- * -------------------------------------------------------------------
+ * -------------------------------------------------------------------*/
 .alert-box {
     padding: var(--vspace-0_75) 4rem var(--vspace-0_75) 3.2rem;
     margin-bottom: var(--vspace-1);
@@ -2616,7 +2615,7 @@ input[type="button"].btn--primary:focus {
 
 /* -------------------------------------------------------------------
  * ## pagination
- * -------------------------------------------------------------------
+ * -------------------------------------------------------------------*/
 .pgn {
     --pgn-num-height: calc(var(--vspace-1) + .4rem);
     margin: var(--vspace-1) auto var(--vspace-1);
@@ -2851,7 +2850,7 @@ input[type="button"].btn--primary:focus {
 
 /* -------------------------------------------------------------------
  * ## MailtoUI style overrides
- * -------------------------------------------------------------------
+ * -------------------------------------------------------------------*/
 .mailtoui-modal {
     --mailtoui-modal-head-bgcolor: var(--color-gray-18);
     --mailtoui-modal-head-title-color: white;
@@ -3000,13 +2999,13 @@ input[type="button"].btn--primary:focus {
  *
  * ------------------------------------------------------------------- */
 .s-header {
-    --header-height: 6.8rem;
+    --header-height: 4.8rem;
     z-index: 100;
     width: 100%;
     background-color:transparent;
     position: absolute;
-    /*top: .8rem;
-    left: 0;*/
+    top: .8rem;
+    left: 0;
 
 }
 
@@ -3050,7 +3049,7 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-header__nav {
     font-family: var(--font-1);
-    font-size: 1.85rem;
+    font-size: 1.5rem;
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -3217,7 +3216,7 @@ input[type="button"].btn--primary:focus {
         height: auto;
         padding: var(--vspace-0_5) 0.4rem var(--vspace-0_5) 2.8rem;
         line-height: var(--vspace-1);
-        color: white;
+        color: grey;
     }
     .s-header__nav ul li::before {
         content: counter(ctr, decimal-leading-zero);
@@ -3296,7 +3295,8 @@ input[type="button"].btn--primary:focus {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /*filter: blur(2px);*/
+    filter: blur(2px);
+    opacity: 0.3;
 }
 
 .s-hero__bg::before {
