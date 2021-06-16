@@ -1801,7 +1801,7 @@ dd {
 
 /* -------------------------------------------------------------------
  * ## floated image
- * -------------------------------------------------------------------
+ * -------------------------------------------------------------------*/
 img.h-pull-right {
     margin: var(--vspace-0_5) 0 var(--vspace-0_5) 2.8rem;
 }
@@ -3938,7 +3938,7 @@ input[type="button"].btn--primary:focus {
     margin-left: 0;
     font-size: var(--text-sm);
     line-height: var(--vspace-0_5);
-    color:white /*var(--color-text-light)*/;
+    color:var(--color-text-light);
     padding-left: calc(0.875 * var(--space));
     position: relative;
 }

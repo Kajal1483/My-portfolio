@@ -44,7 +44,7 @@ function Resume(){
                   </p>
               </div>
               <p className="education1">
-              I have done my schooling from Army public school, BD Bari located in J&K.
+              I have done my schooling from Army public school.
 
               </p>
 
@@ -67,19 +67,19 @@ function Resume(){
 
                   <ul className="skill-bars-fat">
                       <li>
-                      <div className="progress percent85"></div>
-                      <strong>C++, C</strong>
-                      </li>
-                      <li>
-                      <div className="progress percent85"></div>
-                      <strong>Datastructure and Algorithm</strong>
-                      </li>
-                      <li>
                       <div className="progress percent65"></div>
+                      <strong>C, C++</strong>
+                      </li>
+                      <li>
+                      <div className="progress percent55"></div>
+                      <strong>DS Algo</strong>
+                      </li>
+                      <li>
+                      <div className="progress percent45"></div>
                       <strong>Python</strong>
                       </li>
                       <li>
-                      <div className="progress percent80"></div>
+                      <div className="progress percent70"></div>
                       <strong>Front-End</strong>
                       </li>
                       <li>
@@ -87,7 +87,7 @@ function Resume(){
                       <strong>Back-End</strong>
                       </li>
                       <li>
-                      <div className="progress percent80"></div>
+                      <div className="progress percent60"></div>
                       <strong>DBMS</strong>
                       </li>
                   </ul>

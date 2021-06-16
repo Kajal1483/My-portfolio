@@ -115,18 +115,6 @@ function Main(){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 return (<section id="hero" className="s-hero target-section">
 
     <div className="s-hero__bg rellax" data-rellax-speed="-7"></div>

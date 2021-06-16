@@ -11,7 +11,6 @@ function App(){
   <Main/>
   <About/>
   <Resume/>
-
   <Footer/>
   </div>
 }
