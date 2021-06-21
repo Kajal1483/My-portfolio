@@ -26,7 +26,7 @@ return (<section id="about" className="s-about target-section">
                     <p>
                     Domlur, Bengaluru<br/>
                     Karnataka, India, PIN-570061 <br/>
-                    
+                    <a href="#about">90********</a> <br/>
                     <a href="mailto:kajal997choubey@gmail.com">kajal997choubey@gmail.com</a>
                     </p>
              <hr className="hr-k"></hr>
