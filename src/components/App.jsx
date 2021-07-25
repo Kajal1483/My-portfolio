@@ -4,13 +4,14 @@ import Header from "./header"
 import Footer from "./footer"
 import Resume from "./resume"
 import Main from "./main";
+//import Acheivements from "./achievements";
 
 function App(){
   return <div>
   <Header/>
   <Main/>
   <About/>
-  <Resume/>
+  <Resume/>  
   <Footer/>
   </div>
 }

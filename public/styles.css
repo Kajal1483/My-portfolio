@@ -6,6 +6,7 @@
      */
     --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
 }
+
 .hr-k{
   position: absolute;
     width: 600%;
@@ -4435,4 +4436,8 @@ color:gray;
 }
 .education1{
   color:gray;
+}
+.acheivements{
+    background-color:gray;
+    
 }

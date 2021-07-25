@@ -9,7 +9,7 @@ return (<section id="about" className="s-about target-section">
         </div>
         <div className="column large-9 tab-12 s-about__content">
             <h3>About Me</h3>
-            <p>I am Kajal choubey, a 2nd year computer science student at National institute of technology
+            <p>I am Kajal choubey, a 3rd year computer science student at National institute of technology
             srinagar. I am a passionate and consistent learner, a budding and innovative  front end web developer
              who believes in learning by doing. I love designing the front end part of web pages.
               I enjoy competitive programming and have a good hold on Data structure and algorithm.
