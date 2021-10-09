@@ -10,9 +10,8 @@ return (<section id="about" className="s-about target-section">
         <div className="column large-9 tab-12 s-about__content">
             <h3>About Me</h3>
             <p>I am Kajal choubey, a 3rd year computer science student at National institute of technology
-            srinagar. I am a passionate and consistent learner, a budding and innovative  front end web developer
-             who believes in learning by doing. I love designing the front end part of web pages.
-              I enjoy competitive programming and have a good hold on Data structure and algorithm.
+            srinagar. I am a passionate and consistent learner, a budding and innovative C++ and Linux developer
+             who believes in learning by doing.I enjoy competitive programming and have a good hold on Data structure and algorithm.
 
 
             </p>
@@ -24,8 +23,8 @@ return (<section id="about" className="s-about target-section">
                     <h3>Contact Details</h3>
 
                     <p>
-                    Domlur, Bengaluru<br/>
-                    Karnataka, India, PIN-570061 <br/>
+                    Ejipura, Bengaluru<br/>
+                    Karnataka, India, PIN-570049 <br/>
                     <a href="#about">90********</a> <br/>
                     <a href="mailto:kajal997choubey@gmail.com">kajal997choubey@gmail.com</a>
                     </p>

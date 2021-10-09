@@ -19,7 +19,7 @@ function Resume(){
                         2019-Present
                         </span><br/>
                           <span className="resume-block__header-date">
-                          CGPA-8.09
+                          CGPA-8.22
                           </span>
                       </p>
                   </div>
